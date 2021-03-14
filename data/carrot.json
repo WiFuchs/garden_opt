@@ -1,0 +1,10 @@
+{
+    "name": "carrot",
+    "companions": [],
+    "delta_n": -1,
+    "water_use": 0.62,
+    "greywater_ok": false,
+    "yield": 4,
+    "lifespan": 10,
+    "is_cover_crop": false
+}

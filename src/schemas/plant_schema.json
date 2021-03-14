@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Plant Schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "companions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "greywater_ok": {
+      "type": "boolean"
+    },
+    "yield": {
+      "type": "number"
+    },
+    "water_use": {
+      "type": "number"
+    },
+    "delta_n": {
+      "type": "number"
+    },
+    "lifespan": {
+      "type": "integer"
+    },
+    "is_cover_crop": {
+      "type": "boolean"
+    }
+  },
+  "required": ["name", "companions", "greywater_ok", "yield", "water_use", "delta_n", "lifespan", "is_cover_crop"]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "clover",
+    "companions": ["tomato"],
+    "delta_n": 2.3,
+    "water_use": 0.3,
+    "greywater_ok": true,
+    "yield": 0,
+    "lifespan": 17,
+    "is_cover_crop": true
+}

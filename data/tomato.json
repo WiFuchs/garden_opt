@@ -1,0 +1,10 @@
+{
+    "name": "tomato",
+    "companions": ["carrot"],
+    "delta_n": -2.58,
+    "water_use": 1,
+    "greywater_ok": true,
+    "yield": 4.18,
+    "lifespan": 13,
+    "is_cover_crop": false
+}

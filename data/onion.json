@@ -1,0 +1,10 @@
+{
+    "name": "onion",
+    "companions": ["tomato", "corn", "clover"],
+    "delta_n": -4.8,
+    "water_use": 0.62,
+    "greywater_ok": false,
+    "yield": 5.4,
+    "lifespan": 17,
+    "is_cover_crop": false
+}

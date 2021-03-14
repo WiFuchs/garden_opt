@@ -1,0 +1,10 @@
+{
+    "name": "potato",
+    "companions": [],
+    "delta_n": -11,
+    "water_use": 1.2,
+    "greywater_ok": false,
+    "yield": 7.8,
+    "lifespan": 16,
+    "is_cover_crop": false
+}

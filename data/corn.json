@@ -1,0 +1,10 @@
+{
+    "name": "corn",
+    "companions": ["carrot", "clover"],
+    "delta_n": -3.7,
+    "water_use": 0.62,
+    "greywater_ok": true,
+    "yield": 0.68,
+    "lifespan": 10,
+    "is_cover_crop": false
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Garden Schema",
+  "type": "object",
+  "properties": {
+    "sqft": {
+      "type": "number"
+    },
+    "greywater": {
+      "type": "number"
+    },
+    "rainwater": {
+      "type": "number"
+    },
+    "weeks": {
+      "type": "integer"
+    },
+    "yields": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "plant": {
+            "type": "string"
+          },
+          "min_yield": {
+            "type": "number"
+          },
+          "max_yield": {
+            "type": "number"
+          },
+          "max_yield_pct": {
+            "type": "number"
+          }
+        },
+        "required": ["plant", "min_yield"]
+      }
+    }
+  },
+  "required": ["sqft", "greywater", "rainwater", "yields"]
+}
